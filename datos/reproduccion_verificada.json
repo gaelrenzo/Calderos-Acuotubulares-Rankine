@@ -1,0 +1,35 @@
+{
+  "regeneracion_desde_zip": true,
+  "paginas": 10,
+  "texto_identico": true,
+  "archivos_datos_identicos": [
+    "estados.csv",
+    "balances.csv",
+    "sensibilidad_temperatura.csv",
+    "sensibilidad_condensador.csv",
+    "sensibilidad_caldero.csv",
+    "resultados.json",
+    "trayectorias_Ts.csv",
+    "verificacion_IF97.csv",
+    "comparacion_MIT.csv",
+    "valores.tex",
+    "tabla_estados.tex",
+    "tabla_estados_real.tex"
+  ],
+  "originales_conservados": true,
+  "sha256_texto": "762e780c64153ccae454670fde25f9bb9c9ca3cceaf3513a4165ee87b316add2",
+  "renderer_revision": "Figuras PGF/pdfLaTeX y pdftocairo; p?ginas finales PyMuPDF 2.1",
+  "revision_visual_paginas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "fuente_figuras": "ptm / Nimbus Roman, matem?tica Computer Modern"
+}

@@ -1,0 +1,31 @@
+{
+  "backend": "PGF",
+  "motor": "pdfLaTeX",
+  "familia_texto": "ptm / Nimbus Roman",
+  "figuras": [
+    {
+      "figura": "caldero",
+      "rotulos": 20,
+      "intersecciones_texto": [],
+      "fuente": "Times/Nimbus Roman; matem?tica Computer Modern"
+    },
+    {
+      "figura": "ciclo",
+      "rotulos": 17,
+      "intersecciones_texto": [],
+      "fuente": "Times/Nimbus Roman; matem?tica Computer Modern"
+    },
+    {
+      "figura": "ts_ideal",
+      "rotulos": 21,
+      "intersecciones_texto": [],
+      "fuente": "Times/Nimbus Roman; matem?tica Computer Modern"
+    },
+    {
+      "figura": "sensibilidad",
+      "rotulos": 34,
+      "intersecciones_texto": [],
+      "fuente": "Times/Nimbus Roman; matem?tica Computer Modern"
+    }
+  ]
+}

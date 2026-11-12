@@ -1,0 +1,118 @@
+Actúa como investigador en ingeniería termoenergética y editor científico con experiencia en LaTeX. Trabaja en la carpeta donde están los tres archivos adjuntos. Debes elaborar un artículo completo, comprobarlo y entregar el PDF listo para presentar, junto con el proyecto reproducible. No te detengas en un esquema, un borrador, una plantilla vacía ni un archivo .tex sin compilar.
+
+1. REVISA LOS ARCHIVOS Y APLICA ESTE ALCANCE
+
+Lee íntegramente Rubrica_Balance_Termico_Centrales_Termoelectricas.docx, temario.pdf y la captura image(20261112-001115).png. Localízalos por nombre o contenido si cambia su ubicación. Conserva los originales.
+
+Existe una contradicción que debes reconocer: el temario desarrolla calderos acuotubulares; la rúbrica exige el balance térmico de un ciclo con bomba, caldero, turbina y condensador; la captura corresponde a una actividad titulada centrales solares. Para esta ejecución se adopta provisionalmente el tema calderos acuotubulares, porque coincide con el temario y permite atender la rúbrica. De la captura se toma el formato PDF a dos columnas, la extensión cercana a diez páginas y el límite de 100 MB. Esta decisión es un supuesto de trabajo, no una confirmación del docente.
+
+La captura indica entrega el 11/11/2026 a las 22:00 y ponderación 30 % texto y 70 % sustentación. La rúbrica consigna [16/11/2026] y distribuye 20 puntos, incluidos 2 para exposición. No presentes estas instrucciones como si coincidieran, ni inventes una fecha unificada. Registra la diferencia en la nota de verificación que acompaña al proyecto; las fechas administrativas no necesitan aparecer en el artículo.
+
+Usa como título de trabajo «Balance térmico de un ciclo Rankine con caldero acuotubular y evaluación de su desempeño energético». Puedes precisarlo de acuerdo con el análisis realizado, conservando el enfoque. Si recibes después una indicación explícita de que el tema es centrales solares, actualiza todo el alcance antes de redactar y utiliza los artículos que correspondan. No conviertas automáticamente el trabajo en una central termosolar para disimular la contradicción.
+
+2. UTILIZA UNA PLANTILLA OFICIAL REAL
+
+Utiliza la plantilla oficial IEEE Conference Template con la clase IEEEtran en modo conference. Es una elección de formato compatible con la consigna, no un formato exigido expresamente por el docente ni una publicación aceptada por IEEE.
+
+Consulta y obtén la plantilla desde estas fuentes:
+https://conferences.ieeeauthorcenter.ieee.org/write-your-paper/authoring-tools-and-templates/
+https://www.overleaf.com/latex/templates/ieee-conference-template/grfzhhncsfqn
+
+Usa A4 si el docente no especifica otro tamaño, mediante las opciones de la clase. Mantén su tipografía, márgenes, interlineado y distribución. Adapta los rótulos al español sin modificar la geometría para forzar la extensión. Retira todos los nombres, textos de ejemplo, notas de financiación y referencias de demostración de la plantilla. No añadas DOI del artículo, logotipos editoriales, números de revista, fechas de aceptación ni derechos de publicación ficticios.
+
+La meta es un PDF de diez páginas en total, incluidas figuras, tablas y referencias: satisface el rango de seis a diez páginas de la rúbrica y la extensión aproximada de diez de la captura. Ajusta el contenido y la composición; no uses relleno, páginas vacías ni letra diminuta. El título y los autores pueden ocupar el ancho completo, igual que una tabla o figura cuando lo requiera su legibilidad. El cuerpo debe conservar las dos columnas. No añadas una portada universitaria separada ni un índice de monografía.
+
+3. INCLUYE LOS AUTORES Y LA AFILIACIÓN
+
+Conserva este orden, tomado del temario:
+Aquiles Taylor Ramos Yapo
+Renzo Gabriel Mamani Galindo
+Dilmar Humberto Siguayro Coila
+Steven Alex Mayta Lampa
+
+Afiliación de trabajo: Escuela Profesional de Ingeniería Mecánica Eléctrica, Universidad Nacional del Altiplano, Puno, Perú. Si los archivos o una instrucción posterior precisan otra afiliación, aplícala. No inventes correos, códigos de estudiante, ORCID, docente o financiación; omite los campos opcionales que no estén acreditados.
+
+4. FORMULA UN ESTUDIO QUE PUEDA SUSTENTARSE
+
+Elabora un estudio documental y de modelación termodinámica reproducible. Define un problema, una pregunta de investigación, un objetivo general y objetivos específicos coherentes con los resultados. Centra la pregunta en el desempeño energético del ciclo con caldero acuotubular y en el efecto de las condiciones de operación seleccionadas.
+
+Los tres adjuntos actuales contienen instrucciones, un temario y una captura; no incluyen los textos completos de los artículos del aula virtual. No afirmes haberlos consultado. Incorpora prioritariamente los que aparezcan en la carpeta y completa la investigación con bibliografía pública verificable. Si siguen ausentes, deja constancia de ello en la nota de verificación y describe con exactitud en la metodología las fuentes realmente utilizadas.
+
+Si no existen mediciones, desarrolla un caso de cálculo con entradas seleccionadas de fuentes o supuestos explícitos. Identifícalo como caso analítico o simulación; no lo presentes como ensayo de laboratorio, visita o medición de una central real. No inventes resultados experimentales ni atribuyas valores supuestos a una empresa.
+
+5. REDACTA CON ESTRUCTURA DE ARTÍCULO
+
+Incluye título, autores, afiliación, resumen de 150 a 250 palabras, de cuatro a seis palabras clave, introducción, metodología, resultados, discusión, conclusiones y referencias. El resumen debe informar objetivo, método, un resultado numérico efectivamente calculado y la conclusión principal. Escríbelo al finalizar los cálculos.
+
+La introducción debe explicar el problema, su importancia, los antecedentes y el aporte concreto del análisis. La metodología debe definir el sistema, los supuestos, los datos, las ecuaciones, las herramientas y el procedimiento de cálculo. Resultados y discusión deben distinguir los valores obtenidos de su interpretación. Las conclusiones deben responder a los objetivos mediante hallazgos respaldados, sin introducir datos nuevos.
+
+Integra los trece apartados del temario mediante subsecciones y síntesis técnicas, sin copiarlo como trece capítulos de un informe. Deben quedar cubiertos: definición y evolución del caldero; propiedades agua-vapor y ciclo Rankine; transferencia de calor, combustión y circulación; clasificación y comparación con pirotubulares; componentes; funcionamiento y recorridos de agua, vapor y gases; instrumentación, control y protecciones; tratamiento de agua y purgas; capacidad, balance y eficiencia; ventajas y limitaciones; aplicaciones; mantenimiento y seguridad; conclusiones y bibliografía.
+
+Dedica mayor profundidad al balance térmico y a los resultados, porque concentran la mayor parte de la rúbrica. Resume de forma sustantiva los apartados descriptivos. Utiliza párrafos conectados, vocabulario técnico claro y redacción mayormente en presente. No incluyas promesas como «se desarrollará», comentarios de edición ni marcas de contenido pendiente.
+
+6. RESUELVE EL CICLO Y JUSTIFICA CADA PROPIEDAD
+
+Usa inicialmente un ciclo Rankine simple con cuatro estados: 1, salida del condensador; 2, salida de la bomba; 3, salida del caldero y entrada a la turbina; 4, salida de la turbina. Mantén esta numeración en ecuaciones, tablas y figuras.
+
+Presenta una tabla de entradas con valor, unidad y procedencia o condición de supuesto. Define presiones, temperatura de entrada a turbina, caudal o base de cálculo, y eficiencias que utilices. Explicita régimen estacionario, cambios de energía cinética y potencial, pérdidas de presión y demás simplificaciones. Distingue el ciclo ideal de cualquier variante no ideal.
+
+Obtén las propiedades con IAPWS-IF97 mediante una implementación documentada, por ejemplo el backend IF97 de CoolProp, y registra la biblioteca y su versión. Documentación de partida:
+https://www.iapws.org/relguide/IF97-Rev.html
+https://coolprop.org/fluid_properties/IF97.html
+
+Incluye presión, temperatura, entalpía, entropía, volumen específico y fase de cada estado, con unidades. La calidad o título de vapor solo tiene sentido en la región bifásica; en otros estados escribe «no aplica». Justifica, estado por estado, las dos propiedades independientes empleadas y cómo se obtienen las restantes. Si interpolas tablas, muestra el procedimiento y su fuente.
+
+Desarrolla los balances de masa y energía de bomba, caldero, turbina y condensador, indicando hipótesis y convención de signos. Para el caso simple, comprueba las relaciones:
+w_b = h2 - h1
+w_t = h3 - h4
+q_entrada = h3 - h2
+q_salida = h4 - h1
+w_neto = w_t - w_b
+eta_termica = w_neto / q_entrada
+
+Convierte estas expresiones en ecuaciones LaTeX y muestra sustituciones y resultados con unidades. Calcula potencias y flujos de calor cuando el caudal esté definido. Verifica el cierre global q_entrada - q_salida - w_neto y reporta su residuo numérico.
+
+Distingue la eficiencia térmica del ciclo, la eficiencia del caldero y cualquier rendimiento global que calcules. Si estimas consumo de combustible, justifica el combustible, el poder calorífico y la eficiencia del generador de vapor. Explica los métodos directo e indirecto de eficiencia del caldero; calcula pérdidas individuales únicamente con datos o supuestos suficientes y trazables. No presentes 100 % menos la eficiencia como si fuera una medición independiente de cada pérdida. Explica la equivalencia utilizada para BHP si incluyes esta unidad.
+
+7. PRODUCE RESULTADOS Y FIGURAS A PARTIR DE LOS CÁLCULOS
+
+Incluye como mínimo la tabla completa de propiedades, una tabla de balances y desempeño, el esquema del ciclo con sus cuatro componentes y el diagrama T-s exigido por la rúbrica. Añade un esquema claro del caldero acuotubular y sus recorridos si contribuye a cubrir el temario.
+
+Genera el diagrama T-s con la misma formulación de propiedades: campana de saturación, estados numerados, sentido de los procesos, ejes con unidades y escala numérica. Las trayectorias idealizadas deben estar identificadas y ser coherentes con los supuestos; no unas puntos arbitrariamente para aparentar procesos calculados. No utilices imágenes generativas para diagramas o gráficas que deban ser exactos.
+
+Realiza un análisis de sensibilidad acotado, variando al menos una condición relevante, por ejemplo temperatura de entrada a la turbina o presión de condensación, en varios puntos físicamente válidos. Explica qué variables mantienes constantes y presenta el efecto sobre eficiencia, trabajo neto y estado de salida cuando corresponda. No declares significancia estadística a partir de una exploración determinista.
+
+Usa gráficos vectoriales PDF o imágenes de resolución suficiente, con rótulos legibles al tamaño final. Numera todas las tablas y figuras, cítalas desde el texto y explica su interpretación. Identifica la elaboración propia y los datos de origen cuando proceda. No añadas fotografías decorativas o supuestas evidencias de una instalación no visitada.
+
+8. INVESTIGA Y CITA FUENTES REALES
+
+Incluye al menos cinco referencias, como exige la rúbrica; amplía el conjunto cuando sea necesario para respaldar el artículo, sin inflarlo artificialmente. Prioriza artículos científicos consultados, IAPWS, documentación técnica de fabricantes, libros de ingeniería y fuentes oficiales para normativa.
+
+Comprueba las referencias sugeridas por el temario antes de reutilizarlas. Verifica autores, título, año, edición y DOI o URL. No atribuyas contenido que solo aparece en un resultado de búsqueda o que no pudiste consultar. No inventes DOI, páginas, datos editoriales ni enlaces.
+
+Utiliza un único estilo IEEE numérico y un archivo referencias.bib. Toda entrada de la bibliografía debe estar citada y toda cita debe resolverse. Compara los resultados con literatura que use condiciones suficientemente similares, explicando las diferencias entre un modelo ideal y una instalación real. Para normas, verifica edición y alcance en la entidad emisora; no conviertas una síntesis general en una afirmación de cumplimiento certificado.
+
+9. ORGANIZA EL TRABAJO Y DEJA TODO REPRODUCIBLE
+
+Primero extrae requisitos y prepara una matriz que relacione cada criterio con su sección, tabla, figura o cálculo. Después verifica fuentes, define y ejecuta el modelo, genera resultados y redacta. Escribe resumen y conclusiones con los resultados finales. Maqueta, compila e inspecciona el PDF; corrige y repite hasta cerrar los problemas.
+
+Mantén el proyecto ordenado con main.tex, referencias.bib, figuras/, datos/, scripts/, requirements.txt, README.md y una configuración de compilación si hace falta. Incluye la clase o los recursos de la plantilla que sea necesario distribuir, conservando sus licencias. Los scripts deben generar los resultados y gráficos publicados; evita copiar cifras manuales que se desactualicen. Usa rutas relativas y documenta comandos y versiones para reproducirlo.
+
+Compila el proyecto completo en un motor compatible con la plantilla, preferentemente mediante latexmk y BibTeX. Instala las dependencias permitidas que falten. Resuelve errores, citas o referencias indefinidas, caracteres perdidos, ecuaciones cortadas y desbordamientos visibles. No entregues instrucciones para que yo termine una compilación que puedes realizar en tu entorno.
+
+10. REVISA CONTRA LA RÚBRICA Y ENTREGA
+
+Comprueba estos criterios con evidencia concreta: cuadro de propiedades, 3 puntos; procedimiento de cálculo, 3; balances en los cuatro componentes, 4; eficiencia térmica, 3; diagrama T-s, 2; estructura y formato, 2; redacción y referencias, 1. La rúbrica añade 2 puntos por exposición oral, que dependen de la sustentación; no garantices una calificación.
+
+Prepara como apoyo un guion breve para diez minutos de exposición y preguntas técnicas para cinco minutos de discusión, coherente con la rúbrica. Debe explicar los supuestos, la obtención de propiedades, el cierre energético, las eficiencias y las limitaciones sin atribuir mediciones inexistentes.
+
+Renderiza y revisa visualmente todas las páginas del PDF final. Confirma diez páginas totales, dos columnas en el cuerpo, texto seleccionable, figuras y tablas legibles, fuentes incrustadas cuando corresponda, enlaces y referencias correctos y tamaño inferior a 100 MB. Verifica que el ZIP contiene todos los recursos y que el PDF se regenera desde el proyecto empaquetado. La ausencia de errores de compilación no sustituye la inspección visual.
+
+Entrega:
+- Grupo1_Calderos_Acuotubulares.pdf, listo para presentar bajo el alcance adoptado.
+- Proyecto_LaTeX_Calderos_Acuotubulares.zip, con todos los archivos necesarios para recompilar y reproducir el análisis.
+- Verificacion_y_sustentacion.md, con la matriz de requisitos, comprobaciones realizadas, fuentes de los datos, supuestos adoptados, contradicciones administrativas y guion de exposición.
+
+La captura solicita el nombre Grupo1_Centrales_Solares.pdf para su actividad de centrales solares. No lo presentes como nombre confirmado para este tema diferente. Si una instrucción posterior confirma que ese nombre administrativo se aplica a este artículo, úsalo exactamente; de lo contrario conserva el nombre coherente con el alcance adoptado.
+
+El PDF no debe contener TODO, marcadores entre corchetes para completar, secciones vacías, figuras ausentes, citas «??», bibliografía de ejemplo ni instrucciones dirigidas al lector para terminar el trabajo. Resuelve por tu cuenta las decisiones rutinarias. Si una limitación real impide satisfacer un requisito esencial, identifícala con precisión y no declares que el trabajo está listo. No publiques ni envíes la tarea al aula virtual: el resultado solicitado es el conjunto de archivos para revisión y presentación por el usuario.
