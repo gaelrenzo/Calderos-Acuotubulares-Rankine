@@ -1,6 +1,6 @@
 # Balance térmico de un ciclo Rankine con caldero acuotubular
 
-Artículo analítico en español, A4, dos columnas y diez páginas. Los cuatro autores y la afiliación figuran en `main.tex`. No representa mediciones de una instalación. Consultar `Verificacion_y_sustentacion.md` para el alcance, las discrepancias entre los insumos y el apoyo oral.
+Artículo analítico en español, A4, dos columnas y diez páginas. Los tres autores y la afiliación figuran en `main.tex`. No representa mediciones de una instalación. Consultar `Verificacion_y_sustentacion.md` para el alcance, las discrepancias entre los insumos y el apoyo oral.
 
 ## Reproducir con LaTeX instalado
 

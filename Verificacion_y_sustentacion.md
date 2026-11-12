@@ -90,10 +90,9 @@ Los textos completos del aula virtual no estaban entre los archivos recibidos. N
 
 | Tiempo | Integrante sugerido | Explicación y apoyo |
 |---|---|---|
-| 0:00–2:15 | Aquiles Taylor Ramos Yapo | Presentar pregunta y objetivo. Explicar acuotubular frente a pirotubular y el recorrido del ciclo en figura 2. Declarar que es un caso analítico con entradas elegidas. Distinguir la frontera agua–vapor de la del combustible. |
-| 2:15–4:45 | Renzo Gabriel Mamani Galindo | Usar tabla III y figura 3. Explicar los pares independientes; por qué saturación necesita título; qué significa «no aplica». Mostrar x₄=(s₃−s_f)/(s_g−s_f) y describir IF97. No memorizar seis decimales: comprender presión, fase y unidades. |
-| 4:45–7:15 | Dilmar Humberto Siguayro Coila | Derivar el balance estacionario y aplicarlo a los cuatro equipos. Sustituir entalpías en trabajo neto y eficiencia. Presentar 12,32 MW y 39,12 %. Explicar el residuo y por qué un cierre algebraico no prueba exactitud experimental. Comparar 33,17 % no ideal. |
-| 7:15–10:00 | Steven Alex Mayta Lampa | Interpretar figura 4: aumentar T mejora título; bajar p_c o subir p_b puede aumentar humedad. Diferenciar 90 % del caldero de 39,12 % del ciclo. Cerrar con límites: refrigeración, materiales, agua, purgas y falta de mediciones. |
+| 0:00–3:00 | Aquiles Taylor Ramos Yapo | Presentar pregunta y objetivo. Explicar acuotubular frente a pirotubular con la figura 1 y el recorrido del ciclo en la figura 2. Declarar que es un caso analítico con entradas elegidas. Distinguir la frontera agua–vapor de la del combustible. |
+| 3:00–6:30 | Renzo Gabriel Mamani Galindo | Usar la tabla IV y la figura 3. Explicar los pares independientes; por qué saturación necesita título; qué significa «no aplica». Mostrar x₄=(s₃−s_f)/(s_g−s_f) y describir IF97. Mostrar el contraste con las tablas del grupo (tabla III, diferencias < 0,04 %). |
+| 6:30–10:00 | Dilmar Humberto Siguayro Coila | Derivar el balance estacionario en los cuatro equipos; sustituir entalpías en trabajo neto y eficiencia: 12,32 MW y 39,12 %; residuo y 33,17 % no ideal. Interpretar la figura 4 (T₃, p_c, p_b) y diferenciar 90 % del caldero de 39,12 % del ciclo. Cerrar con límites del modelo. |
 
 Ensayo recomendado: respetar los cortes de tiempo y que cada integrante pueda explicar cualquier estado y componente. Las tablas completas están en el artículo; durante la exposición conviene señalar solo las filas necesarias.
 
@@ -118,6 +117,7 @@ Priorizar cuatro o cinco preguntas según el tiempo. La discrepancia con el tema
 
 - **Figuras 1 y 2 rehechas como dibujos técnicos** (`scripts/esquemas.py`): caldero de dos domos en corte (hogar con paredes de agua, quemador, haz convectivo, descendente, sobrecalentador, economizador, precalentador de aire, ventilador, chimenea y purga) y ciclo con símbolos de equipo (turbina con generador, condensador de superficie con haz de tubos, bomba centrífuga con motor). Sustituyen a los diagramas de bloques. Son ilustrativos y no a escala.
 - **Contraste con las tablas del grupo** ([Tablas.KchaParedes](https://github.com/dilmar231gabriel-ops/Tablas.KchaParedes), commit 6b33d48): el mismo caso (8 MPa, 480 °C, 10 kPa) resuelto con la base SQLite e interpolación lineal se compara con IF97 en la tabla III del artículo. Las diferencias en h1–h4, x4 y η son menores de 0,04 % (η = 39,12 % en ambos). Script: `scripts/contraste_tablas.py`; datos: `datos/contraste_tablas.csv` y `datos/tablas_kchaparedes_solution.json`. Se añadió la referencia [9].
+- Autores: se retira a Steven Alex Mayta Lampa por indicación del usuario (11/11/2026); el guion se redistribuye entre tres integrantes.
 - Recompilado: 10 páginas A4, sin cajas desbordadas ni referencias indefinidas.
 
 

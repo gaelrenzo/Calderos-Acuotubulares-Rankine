@@ -1,10 +1,10 @@
 {
   "paginas": 10,
   "papel": "A4",
-  "bytes": 326760,
+  "bytes": 326600,
   "texto_seleccionable": true,
   "caracteres_por_pagina": [
-    4084,
+    4059,
     4370,
     3060,
     3022,
@@ -233,6 +233,6 @@
       "/UBAZYU+CMMI6"
     ]
   },
-  "sha256_pdf": "177d7b1213befcad10a4e7e8a8835c8775d636d2ee98ab2150b939778deaf8a7",
-  "sha256_texto": "07cb4e107461f31887bad05274fca8563e92ee739b006eac88a06524d23071c3"
+  "sha256_pdf": "43b5d831d9832c9b92a47cab6fcb8654835a97eee0d94fa082a47424990e8796",
+  "sha256_texto": "1c301202b7a5925568e336a1e5b0b5961e882013150fe1c54493db202131b988"
 }
